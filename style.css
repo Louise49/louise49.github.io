@@ -26,7 +26,7 @@ body {
     border-left: 1em solid black}
 
     ul.navbar li:hover {
-      background: purple;
+      background: blue;
       }
 
   ul.navbar a {
