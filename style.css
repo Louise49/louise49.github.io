@@ -23,7 +23,7 @@ body {
     background: white;
     margin: 0.5em 0;
     padding: 0.3em;
-    border-left: 1em solid black}
+    border-left: 1em solid blue}
 
     ul.navbar li:hover {
       background: blue;

@@ -19,3 +19,15 @@ function show_topic() { 
   x.style.fontSize = "25px"; 
   x.style.color = "red"; 
 } 
+
+$(document).ready(function(){
+   $("button#hide_h2").on('click',function(){
+       $("h2").hide(500);
+   });
+
+   $("button#show_h2").on('click',function(){
+       $("h2").show(300);
+       $("h2").css("color","blue");
+       $("h2").html("You clicked me hard.");
+   });
+ });
