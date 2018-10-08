@@ -3,6 +3,29 @@
 <head>
   <title>Index Page</title>
   <link rel="stylesheet" href="style.css">
+  <script> 
+  function compute_x_plus_y(x,y) { 
+    var z = 0;
+    x = parseInt(x);
+    y = parseInt(y);
+    z = x + y;
+    return z;
+  }
+  function ask_for_x_n_y() { 
+    var x = prompt("Enter x value");
+    var y = prompt("Enter y value");
+    var z = compute_x_plus_y(x,y);
+    var x = document.getElementById("demo"); 
+    x.style.fontSize = "25px"; 
+    x.style.color = "red"; 
+    document.getElementById("demo").innerHTML = "The answer is " + z; 
+  }
+  function show_topic() { 
+    var x = document.getElementById("welcome"); 
+    x.style.fontSize = "25px"; 
+    x.style.color = "red"; 
+  } 
+  </script> 
 </head>
 
 <body>
@@ -18,9 +41,9 @@
 <!-- Main content -->
 <h1>Index Page</h1>
 
-<p>Welcome to my styled page!
+<p id="welcome">Welcome to my index page!
 
-<p>It lacks images, but at least it has style.
+<p id="demo">It lacks images, but at least it has style.
 And it has links, even if they don't go
 anywhere&hellip;
 
@@ -28,8 +51,9 @@ anywhere&hellip;
 what yet.
 
 <!-- Sign and date the page, it's only polite! -->
-<address>Made 5 April 2004<br>
+<address>Made 8 October 2018<br>
   by myself.</address>
-
+<button onclick="ask_for_x_n_y();">X + Y = ?</button>
+<button onclick="show_topic();">Change Text Color of Welcome Message</button>
 </body>
 </html>
