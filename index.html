@@ -2,47 +2,52 @@
 <html>
 <head>
   <title>Index Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <script>
-  function compute_x_plus_y(x,y) { 
-    var z = 0;
-    x = parseInt(x);
-    y = parseInt(y);
-    z = x + y;
-    return z;
-  }
-  function ask_for_x_n_y() { 
-    var x = prompt("Enter x value");
-    var y = prompt("Enter y value");
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script>
+function compute_x_plus_y(x,y) { 
+  var z = 0;
+  x = parseInt(x);
+  y = parseInt(y);
+  z = x + y;
+  return z;
+}
+function ask_for_x_n_y() { 
+    var x = document.getElementById("myForm").elements[0].value;
+    var y = document.getElementById("myForm").elements[1].value;
     var z = compute_x_plus_y(x,y);
     var x = document.getElementById("demo"); 
     x.style.fontSize = "25px"; 
     x.style.color = "red"; 
     document.getElementById("demo").innerHTML = "The answer is " + z; 
   }
-  function show_topic() { 
-    var x = document.getElementById("welcome"); 
-    x.style.fontSize = "25px"; 
-    x.style.color = "red"; 
-  } 
 
-  $(document).ready(function(){
-     $("button#hide_h2").on('click',function(){
-         $("h2").hide(500);
-     });
+function show_topic() { 
+  var x = document.getElementById("welcome"); 
+  x.style.fontSize = "25px"; 
+  x.style.color = "red"; 
+} 
 
-     $("button#show_h2").on('click',function(){
-         $("h2").show(300);
-         $("h2").css("color","blue");
-         $("h2").html("You clicked me hard.");
-     });
+$(document).ready(function(){
+   $("button#hide_h2").on('click',function(){
+       $("h2").hide(500);
    });
-  </script> 
+
+   $("button#show_h2").on('click',function(){
+       $("h2").show(300);
+       $("h2").css("color","blue");
+       $("h2").html("You clicked me hard.");
+   });
+ });
+
+</script>
 
 </head>
 
 <body>
-
+<div class="container">
 <!-- Site navigation menu -->
 <ul class="navbar">
   <li><a href="index.html">Home page</a>
@@ -68,9 +73,21 @@ what yet.
 <!-- Sign and date the page, it's only polite! -->
 <br>
 <button type="button" class="btn-primary" onclick="ask_for_x_n_y();">X + Y = ?</button>
-<button onclick="show_topic();">Change Text Color of Welcome Message</button>
-<button id="hide_h2">Hide H2 text</button>
-<button id="show_h2">Show H2 text in blue</button>
+<button type="button" class="btn btn-info" onclick="show_topic();">Change Text Color of Welcome Message</button>
+<button type="button" class="btn btn-warning" id="hide_h2">Hide H2 text</button>
+<button type="button" class="btn btn-danger" id="show_h2">Show H2 text in blue</button>
+
+<form id="myForm">
+    <div class="form-group">
+      <label for="1st">Enter first number:</label>
+      <input type="text" class="form-control" id="text" placeholder="First Number" name="1st">
+    </div>
+    <div class="form-group">
+      <label for="2nd">Enter second number:</label>
+      <input type="text" class="form-control" id="text" placeholder="Second Number" name="pwd">
+    </div>
+
+</div>
 
 <address>Made 8 October 2018<br>
   by myself.</address>
