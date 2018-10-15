@@ -4,46 +4,6 @@
   <title>Index Page</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script>
-function compute_x_plus_y(x,y) { 
-  var z = 0;
-  x = parseInt(x);
-  y = parseInt(y);
-  z = x + y;
-  return z;
-}
-function ask_for_x_n_y() { 
-    var x = document.getElementById("myForm").elements[0].value;
-    var y = document.getElementById("myForm").elements[1].value;
-    var z = compute_x_plus_y(x,y);
-    var x = document.getElementById("demo"); 
-    x.style.fontSize = "25px"; 
-    x.style.color = "red"; 
-    document.getElementById("demo").innerHTML = "The answer is " + z; 
-  }
-
-function show_topic() { 
-  var x = document.getElementById("welcome"); 
-  x.style.fontSize = "25px"; 
-  x.style.color = "red"; 
-} 
-
-$(document).ready(function(){
-   $("button#hide_h2").on('click',function(){
-       $("h2").hide(500);
-   });
-
-   $("button#show_h2").on('click',function(){
-       $("h2").show(300);
-       $("h2").css("color","blue");
-       $("h2").html("You clicked me hard.");
-   });
- });
-
-</script>
-
 </head>
 
 <body>
@@ -86,10 +46,13 @@ what yet.
       <label for="2nd">Enter second number:</label>
       <input type="text" class="form-control" id="text" placeholder="Second Number" name="pwd">
     </div>
-
 </div>
 
 <address>Made 8 October 2018<br>
   by myself.</address>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='script1.js'></script>
+
 </body>
 </html>

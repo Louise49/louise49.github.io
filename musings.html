@@ -2,6 +2,9 @@
 <html>
 <head>
   <title>Musings Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,18 +21,45 @@
 <!-- Main content -->
 <h1>Musings Page</h1>
 
-<p>Welcome to my musings page!
+<h2>This is a H2 sub-title</h2>
 
-<p>It lacks images, but at least it has style.
+<p id="welcome">Welcome to my index page!
+
+<p id="demo">It lacks images, but at least it has style.
 And it has links, even if they don't go
-anywhere&hellip;
+anywhere.</p>
 
 <p>There should be more here, but I don't know
-what yet.
+what yet.</p>
 
 <!-- Sign and date the page, it's only polite! -->
-<address>Made 5 April 2004<br>
-  by myself.</address>
+<br>
+<button type="button" class="btn btn-primary" onclick="ask_for_x_n_y();">X + Y = ?</button>
+<button type="button" class="btn btn-primary" onclick="ask_xy();">Another X + Y = ?</button>
+<button type="button" class="btn btn-success" onclick="show_topic();">Change Text Color of Welcome Message</button>
+<button type="button" class="btn btn-info" id='hide_h2'>Hide H2 text</button>
+<button type="button" class="btn btn-warning" id='show_h2'>Show H2 text in blue</button>
+<form id="myForm">
+    <div class="form-group">
+      <div class="col-xs-4">
+          <label for="1st">Enter first number:</label>
+          <input type="text" class="form-control">
+      </div>
+      <div class="col-xs-4">
+          <label for="2nd">Enter second number:</label>
+          <input type="text" class="form-control">
+      </div>
+      <div class="col-xs-4">
+      </div>
+      <div class="col-xs-12">
+          <address>Made 5 April 2004<br>
+            by myself.</address>
+      </div>
+    </div><!-- end of form-group -->
+</form>
+</div>
 
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src='script2.js'></script>
 </body>
 </html>
