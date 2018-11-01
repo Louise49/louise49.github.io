@@ -61,10 +61,6 @@ $(document).ready(function(){
                    data: {
                        columns: table2_dataSet,
                        type : 'bar'
-                       keys: {
-                          x: 'x',
-                          value: ['Weibo Fans Amount'],
-                          }
                    },
                    axis: {
                         x: {
