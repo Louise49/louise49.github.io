@@ -40,4 +40,42 @@
                 ]
             } );
        }); // end .getJSON
+
+       var table2_items = [];
+       var i = 0;
+       var airtable_read_endpoint =
+       "https://api.airtable.com/v0/appdKlfv4HAjmlZGI/Json?api_key=key3P4gTMtrDY1ylx=Grid%20view";
+       var table2_dataSet = [];
+       $.getJSON(airtable_read_endpoint, function(result) {
+              $.each(result.records, function(key,value) {
+                  table2_items = [];
+                      table2_items.push(value.fields.Companies);
+                      table2_items.push(value.fields.Weibo_Fans);
+                      table2_dataSet.push(table2_items);
+                      console.log(table2_items);
+               }); // end .each
+               console.log(table2_dataSet);
+              $('#table2').DataTable( {
+                  data: table2_dataSet,
+                  retrieve: true,
+                  ordering: false,
+                  columns: [
+                      { title: "Companies",
+                        defaultContent:""},
+                      { title: "Weibo_Fans",
+                        defaultContent:""},
+                  ] // rmf columns
+              } ); // end dataTable
+
+              var chart = c3.generate({
+                   data: {
+                       columns: table2_dataSet,
+                       type : 'bar'
+                   },
+                   donut: {
+                       title: "Fans Amount Comparison:",
+                   }
+               });
+
+        }); // end .getJSON
      }); // end button
