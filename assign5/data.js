@@ -1,3 +1,4 @@
+$(document).ready(function(){
      $("button#get_data").click(function() {
        var table1_items = [];
        var i = 0;
@@ -62,7 +63,7 @@
                   columns: [
                       { title: "Companies",
                         defaultContent:""},
-                      { title: "Weibo_Fans",
+                      { title: "Fans Amount(Weibo)",
                         defaultContent:""},
                   ] // rmf columns
               } ); // end dataTable
@@ -73,9 +74,10 @@
                        type : 'bar'
                    },
                    donut: {
-                       title: "Fans Amount Comparison:",
+                       title: "Comparison:",
                    }
                });
 
         }); // end .getJSON
      }); // end button
+}); // document ready
