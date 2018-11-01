@@ -62,10 +62,6 @@ $(document).ready(function(){
                        columns: table2_dataSet,
                        type : 'bar'
                    },
-                   axis: {
-                        x: {
-                           type: 'category'
-                        }
                    donut: {
                        title: "Comparison:",
                    }
