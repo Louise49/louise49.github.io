@@ -61,6 +61,7 @@ $(document).ready(function(){
                    data: {
                        columns: table2_dataSet,
                        type : 'bar'
+                       labels: true
                    },
                    donut: {
                        title: "Comparison:",
