@@ -63,16 +63,8 @@ $(document).ready(function(){
                     axis: {
                             x: {
                                 type: 'category',
-                                categories: ['cat1', 'cat2', 'cat3', 'cat4', 'cat5', 'cat6', 'cat7', 'cat8', 'cat9']
+                                categories: ['1', '2', '3', '4', '5', '6', '7', '8', '9']
                             }
-                        }
-                    axis: {
-                            x: {
-                                label: 'Company'
-                            },
-                            y: {
-                                label: 'Fans Amount'
-                            },
                         }
                 });
 
