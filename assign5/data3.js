@@ -60,10 +60,7 @@ $(document).ready(function(){
                var chart = c3.generate({
                    data: {
                        x: 'x',
-                       columns: [
-                           ['x', 30, 50, 100, 230, 300, 310],
-                           ['data1', 30, 200, 100, 400, 150, 250],
-                           ['data2', 130, 300, 200, 300, 250, 450]
+                       columns: table2_dataSet,
                        ]
                    }
                });
