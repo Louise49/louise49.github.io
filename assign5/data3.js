@@ -58,8 +58,14 @@ $(document).ready(function(){
                var chart = c3.generate({
                     data: {
                         columns: table2_dataSet,
-                        type : 'spline'
+                        type : 'bar'
                     },
+                    axis: {
+                            x: {
+                                type: 'category',
+                                categories: ['cat1', 'cat2', 'cat3', 'cat4', 'cat5', 'cat6', 'cat7', 'cat8', 'cat9']
+                            }
+                        }
                     axis: {
                             x: {
                                 label: 'Company'
