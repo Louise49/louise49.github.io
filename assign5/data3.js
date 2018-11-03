@@ -61,7 +61,6 @@ $(document).ready(function(){
                    data: {
                        x: 'x',
                        columns: table2_dataSet,
-                       ]
                    }
                });
 
