@@ -61,12 +61,13 @@ $(document).ready(function(){
                         type : 'spline'
                     },
                     axis: {
-                        x: {
-                            type: 'category',
-                            categories: ['Companies']
+                            x: {
+                                label: 'Company'
+                            },
+                            y: {
+                                label: 'Fans Amount'
+                            },
                         }
-                    }
-
                 });
 
 
