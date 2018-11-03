@@ -57,16 +57,6 @@ $(document).ready(function(){
                }); // end .each
                console.log(table2_dataSet);
 
-              var chart = c3.generate({
-                   data: {
-                       columns: table2_dataSet,
-                       type : 'bar'
-                   },
-                   donut: {
-                       title: "Comparison:",
-                   }
-               });
-
                var chart = c3.generate({
                    data: {
                        columns: table2_dataSet,
@@ -87,9 +77,6 @@ $(document).ready(function(){
                        }
                    }
                });
-
-
-
 
 
         }); // end .getJSON
