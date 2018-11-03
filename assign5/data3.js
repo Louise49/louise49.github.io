@@ -58,11 +58,12 @@ $(document).ready(function(){
                console.log(table2_dataSet);
 
                var chart = c3.generate({
-                   data: {
-                       x: 'table2_dataSet',
-                       columns: table2_dataSet,
-                   }
-               });
+                    data: {
+                        columns: table2_dataSet,
+                        type : 'spline'
+                    },
+
+                });
 
 
         }); // end .getJSON
