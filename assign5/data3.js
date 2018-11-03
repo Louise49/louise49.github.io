@@ -59,23 +59,12 @@ $(document).ready(function(){
 
                var chart = c3.generate({
                    data: {
-                       columns: table2_dataSet,
-                       type:"line"
-                       axes: {
-                           sample2: 'y2'
-                       }
-                   },
-                   axis: {
-                       x: {
-                           label: 'X Label'
-                       },
-                       y: {
-                           label: 'Y Label'
-                       },
-                       y2: {
-                           show: true,
-                           label: 'Y2 Label'
-                       }
+                       x: 'x',
+                       columns: [
+                           ['x', 30, 50, 100, 230, 300, 310],
+                           ['data1', 30, 200, 100, 400, 150, 250],
+                           ['data2', 130, 300, 200, 300, 250, 450]
+                       ]
                    }
                });
 
