@@ -62,8 +62,13 @@ $(document).ready(function(){
                        columns: table2_dataSet,
                        type : 'bar'
                    },
-                   donut: {
-                       title: "Comparison:",
+                   axis: {
+                       x: {
+                           label: 'Company'
+                       },
+                       y: {
+                           label: 'Weibo Fans Amount'
+                       },
                    }
                });
 
