@@ -62,6 +62,12 @@ $(document).ready(function(){
                         columns: table2_dataSet,
                         type : 'spline'
                     },
+                    axis: {
+                        x: {
+                            type: 'category',
+                            categories: ['Companies']
+                        }
+                    }
 
                 });
 
