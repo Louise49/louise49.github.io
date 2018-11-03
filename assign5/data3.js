@@ -53,9 +53,7 @@ $(document).ready(function(){
                       table2_items.push(value.fields.Companies);
                       table2_items.push(value.fields.Weibo_Fans);
                       table2_dataSet.push(table2_items);
-                      console.log(table2_items);
                }); // end .each
-               console.log(table2_dataSet);
 
                var chart = c3.generate({
                     data: {
