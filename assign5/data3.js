@@ -59,7 +59,7 @@ $(document).ready(function(){
 
                var chart = c3.generate({
                    data: {
-                       x: 'x',
+                       x: 'table2_dataSet',
                        columns: table2_dataSet,
                    }
                });
