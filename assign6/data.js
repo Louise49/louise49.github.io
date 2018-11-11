@@ -10,7 +10,6 @@ $(document).ready(function(){
                       table1_items.push(value.fields.Companies);
                       table1_items.push('<td><img src="' + value.fields.Logos + '" style="width: 90px;"/></td>');
                       table1_items.push(value.fields.Foundation);
-                      table1_items.push(value.fields.Location);
                       table1_items.push(value.fields.Weibo_Fans);
                       table1_items.push(value.fields.MissEvan_Fans);
                       table1_items.push(value.fields.Members);
@@ -29,8 +28,6 @@ $(document).ready(function(){
                       defaultContent:""},
                     { title: "Startup",
                         defaultContent:"" },
-                    { title: "Location",
-                      defaultContent:"" },
                     { title: "WeiboFans",
                       defaultContent:"" },
                     { title: "MFans",
