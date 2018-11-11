@@ -2,7 +2,7 @@
 
     var map = L.map('map')
           .addLayer(mapboxTiles)
-          .setView([33.6168592, 114.5836234], 5);
+          .setView([34.7428137, 113.523092], 5);
 
     var items = [];
     var airtable_read_endpoint = "https://api.airtable.com/v0/appdKlfv4HAjmlZGI/Json?api_key=key3P4gTMtrDY1ylx";
