@@ -101,15 +101,17 @@
                               <span class="text-primary"></span>
                             </div>
                  </div>
-                    <button type="button" class="btn btn-warning" id='roll_up' onclick="show_districts();">Show Locations</button>
-                    <center><button type="button" class="btn btn-warning" id='get_data'>Get data!</button></center>
+                    <button type="button" class="btn btn-primary disabled" id='roll_up' onclick="show_districts();">Show Locations</button>
+                    <button type="button" class="btn btn-primary active" id='get_data'>Get data!</button>
+                    <br></br>
 
-                <div class="table-responsive">
-                    <table id="table1" width="100%" class="table table-bordered"></table>
-                    <table id="table2" width="100%" class="table table-bordered"></table>
-                    <div id="chart"></div>
-                </div>
                    <div id="map" style="width: 800px; height: 440px; border: 1px solid #AAA;"></div>
+
+                   <div class="table-responsive">
+                       <table id="table1" width="100%" class="table table-bordered"></table>
+                       <table id="table2" width="100%" class="table table-bordered"></table>
+                       <div id="chart"></div>
+                   </div>
         </div>
 
       </section>
