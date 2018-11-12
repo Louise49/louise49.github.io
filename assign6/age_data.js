@@ -1,5 +1,5 @@
 $(document).ready(function(){
-     $("button#get_data").click(function() {
+     $("button#get_age").click(function() {
        var table3_items = [];
        var i = 0;
        var airtable_read_endpoint = "https://api.airtable.com/v0/appdKlfv4HAjmlZGI/Json?api_key=key3P4gTMtrDY1ylx";
