@@ -16,11 +16,11 @@ $(document).ready(function(){
                }); // end .each
                console.log(table3_dataSet);
 
-               var chart = c3.generate({
+              var chart = c3.generate({
                    data: {
                        columns: table3_dataSet,
+                       type : 'bar'
                    },
-               });
                    axis: {
                        x: {
                            label: 'Company'
