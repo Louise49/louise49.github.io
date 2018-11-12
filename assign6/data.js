@@ -41,6 +41,5 @@ $(document).ready(function(){
                 ]
             } );
        }); // end .getJSON
-
      }); // end button
 }); // document ready

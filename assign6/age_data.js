@@ -1,4 +1,3 @@
-$(document).ready(function(){
      $("button#get_age").click(function() {
        var table3_items = [];
        var i = 0;
@@ -56,4 +55,3 @@ $(document).ready(function(){
 
         }); // end .getJSON
      }); // end button
-}); // document ready
