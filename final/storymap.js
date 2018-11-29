@@ -7,49 +7,70 @@ var storymap_data = {
     slides: [
       {
       type: "overview",
-      date: "1963-2017",
+      date: "2018",
       text: {
-        headline: "Chinese University of Hong Kong",
-        text: "<p>Founded in 1963, The Chinese University of Hong Kong (CUHK) is a forward-looking comprehensive research university with a global vision and a mission to combine tradition with modernity, and to bring together China and the West. CUHK teachers and students hail from all around the world. CUHK graduates are connected worldwide through an extensive alumni network.</p>"
+        headline: "国语商配资讯站",
+        text: "<p>涵盖国内九大顶尖商业配音团队。最新资讯，一站享有。</p>"
       },
       media: {
-        url: "http://www.cuhk.edu.hk/english/images/header_about.png",
-        credit: "CUHK",
+        url: "https://dl.airtable.com/sJG8lNQRcmbY4bjJhbw8_logo.png",
+        credit: "香港",
         caption: ""
       }
-    }, 
+    },
      {
-      date: "2005",
+      date: "2016",
       text: {
-        headline: "CENTER FOR ENTREPRENEURSHIP",
-        text: "<p> Found in 2005, the Center for Entrepreneurship (CfE) of the Chinese University of Hong Kong (CUHK) is an interdisciplinary association. It has united scholars in the area of research, education and community service to inspire the spirit of entrepreneurship and nurture entrepreneurship thinking.</p>"
+        headline: "729声工场",
+        text: "<p> 创始于2005年7月29日，原名729配音组。2016年7月29日，729配音组正式更名729声工场，发展成为一支专业配音团队。著名配音导演及演员张杰为该品牌创始人之一。参与并制作诸多动画、 影视、游戏、广播剧等作品。 代表作：动画《狐妖小红娘》、《全职高手》、游戏《仙剑奇侠传》系列等。</p>"
       },
       location: {
-        name: "Cheng Yu Tung Building, Chek Cheung Street",
+        name: "729声工场",
         icon: "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
-        lat: 22.4122,
-        lon: 114.2105,
+        lat: 39.9587664,
+        lon: 116.3579938,
         zoom: 16,
         line: true
       },
       media: {
-        url: "http://www.bschool.cuhk.edu.hk/program/ibba/content/upload/201408/home_banner_Y8A8606.jpg",
+        url: "https://dl.airtable.com/a6LGXVK5SoKMfjalKoib_729logo.png",
         type: 		"image",
-        credit: "CUHK",
-        caption: "Cheng Yu Tung Building, School of Busness."
+        credit: "北京",
+        caption: "以声动人，用心做事。"
       }
-    }, 
+    },
+    {
+     date: "2015",
+     text: {
+       headline: "光合积木工作室",
+       text: "<p> 2015年成立，是由资深配音演员姜广涛创建的配音团队。以影视配音为主要业务，担任众多影视剧的对白配音工作，并参与动画、游戏、有声漫画、广播剧等各类有声作品的创作。代表作有电视剧《大唐荣耀》《择天记》《思美人》、电影《港囧》《微微一笑很倾城》《从你的全世界路过》、动画《黑白无双》《超神学院之黑甲》《少年锦衣卫》、广播剧《芈月传》等。</p>"
+     },
+     location: {
+       name: "光合积木工作室",
+       icon: "https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
+       lat: 39.9676207,
+       lon: 116.5326328,
+       zoom: 16,
+       line: true
+     },
+     media: {
+       url: "https://dl.airtable.com/a6LGXVK5SoKMfjalKoib_729logo.png",
+       type: 		"image",
+       credit: "北京",
+       caption: "阳光，可以孕育生命；积木，可以无限组合；声音的积木，把这个世界说给你听。"
+     }
+   },
      {
-      date: "1965",
+      date: "2014",
       text: {
-        headline: "SCHOOL OF JOURNALISM AND COMMUNICATION",
-        text: "<p>Established in 1965, the School of Journalism and Communication has the longest history of communication education and research in Hong Kong. The first Master of Philosophy programme was launched in 1977 by the late Professor Wilbur Schramm, one of the founding fathers of communication studies.</p> "
+        headline: "北斗企鹅工作室",
+        text: "<p> 成立于2014年，是一家专注于ACG（动画，漫画及配音）领域的专业声优公司。团队目前拥有专职声优艺人四十余名，并与其他业内艺人保持良好的合作关系。 动画游戏以及新媒体属于新兴产业，北斗企鹅以保证作品质量和诚意为核心理念。在选人方面，以优秀的年轻配音演员为主，成熟配音演员为辅，从而使整个公司的人员构成多元化、立体化，可以更快的适应时代要求和市场要求，从而更好的完成项目，与市场对接。</p> "
       },
       location: {
-        name: "CUHK New Asia College",
+        name: "北斗企鹅工作室",
         ICON:"https://maps.gstatic.com/intl/en_us/mapfiles/ms/micons/blue-pushpin.png",
-        lat: 22.4210,
-        lon: 114.2090,
+        lat: 39.9082031,
+        lon: 116.6039003,
         zoom: 16,
         line: true
       },
