@@ -15,9 +15,9 @@
                 data: table3_dataSet,
                 retrieve: true,
                 columns: [
-                    { title: "Company",
+                    { title: "团队名称",
                       defaultContent:""},
-                    { title: "Average Age",
+                    { title: "平均年龄",
                       defaultContent:""},
                 ]
             } );
@@ -26,7 +26,7 @@
        var table4_items = [];
        var i = 0;
        var airtable_read_endpoint =
-       "https://api.airtable.com/v0/appdKlfv4HAjmlZGI/Json?api_key=key3P4gTMtrDY1ylx";
+       "https://api.airtable.com/v0/appSmZnXtQ42iMBXl/Json?api_key=key3P4gTMtrDY1ylx";
        var table4_dataSet = [];
        $.getJSON(airtable_read_endpoint, function(result) {
               $.each(result.records, function(key,value) {
@@ -45,10 +45,10 @@
                    },
                    axis: {
                        x: {
-                           label: 'Company'
+                           label: '团队名称'
                        },
                        y: {
-                           label: 'Average age'
+                           label: '平均年龄'
                        },
                    }
                });
