@@ -33,7 +33,7 @@ var storymap_data = {
         line: true
       },
       media: {
-        url: "https://www.youtube.com/watch?v=6BtRxuJADps",
+        url: "https://dl.airtable.com/PsJyfHpFRl6NixFUi1MZ_729.jpg",
         type: 		"image",
         credit: "北京",
         caption: "以声动人，用心做事。"
@@ -88,7 +88,7 @@ var storymap_data = {
        text: "<p> 成立于2017年，冠声的声优团队分为两大阵营，以北京为阵地的声优团队会主要生产个性化的音频产品和担当出品或承制作品的重要角色，以全国范围内建立的冠声声优联盟，会接到和各平台合作的音频产品录制及部分作品的配音角色任务。</p> "
      },
      location: {
-       name: "北斗企鹅工作室",
+       name: "冠声文化",
        icon:"https://dl.airtable.com/Pti3l6tdQMypu15hRJ5S_red-pushpin.png",
        lat: 39.8291191,
        lon: 116.1211347,
@@ -96,7 +96,7 @@ var storymap_data = {
        line: true
      },
      media: {
-       url: "https://www.youtube.com/watch?v=Vn95Fhoipwg",
+       url: "https://dl.airtable.com/eTXOTpq1Qinogm5sFka8_Guan%20Sheng.jpg",
        type: "image",
        credit: "北京",
        caption: "用声音碰撞心灵，让耳朵谈一场恋爱！"
@@ -117,12 +117,75 @@ var storymap_data = {
       line: true
     },
     media: {
-      url: "http://www.sound-u.cn/imgs/logo.png",
+      url: "https://dl.airtable.com/GY4fz0NTQh2IDB0YxLnA_Voice%20Bear.jpg",
       type: "image",
       credit: "上海",
       caption: "熊窝饲养员“干脆面”专属工作间。"
     }
-  },
+    },
+    {
+     date: "2014",
+     text: {
+       headline: "领声文化",
+       text: "<p> 成立于2014年，由国家一级演员、著名配音导演狄菲菲女士创立于2014年，成员包括多位著名配音演员。它以有声语言为资源，通过各种渠道向社会提供专业影视后期声音制作、有声读物制作、各类声音演绎活动及演出策划服务，同时也致力于声音演绎人才的培养。</p> "
+     },
+     location: {
+       name: "领声文化",
+       icon:"https://dl.airtable.com/Pti3l6tdQMypu15hRJ5S_red-pushpin.png",
+       lat: 31.3375126,
+       lon: 121.5910753,
+       zoom: 16,
+       line: true
+     },
+     media: {
+       url: "https://dl.airtable.com/pQNjOuSfTdm40FLBQq9O_Listen.jpg",
+       type: "image",
+       credit: "上海",
+       caption: "与声音相遇的专属时间。"
+     }
+     },
+     {
+      date: "2016",
+      text: {
+        headline: "边江工作室",
+        text: "<p> 成立于2016年，是由知名配音演员边江创建的配音团队。以影视配音为主要业务，亦涉猎二次元领域。代表作有影视剧《许你浮生若梦》、广播剧《天宝伏妖录》、动画《空气侠》、有声漫画《头条都是他》等。主力成员包括之之、弋凡、陈张太康、北辰等。</p> "
+      },
+      location: {
+        name: "边江工作室",
+        icon:"https://dl.airtable.com/Pti3l6tdQMypu15hRJ5S_red-pushpin.png",
+        lat: 30.9902496,
+        lon: 121.2216743,
+        zoom: 16,
+        line: true
+      },
+      media: {
+        url: "https://dl.airtable.com/3iULgCVYTXy2q9SReFwc_Bianjiang%20Studio.jpg",
+        type: "image",
+        credit: "上海",
+        caption: "边江（上海）影视文化工作室"
+      }
+    },
+    {
+     date: "2017",
+     text: {
+       headline: "瞬心文化",
+       text: "<p> 成立于2017年，主营二次元产业IP孵化及投资、IP衍生品设计开发销售、影视动漫游戏配音（音效、音乐）服务、声优艺人培训与经纪。总部位于杭州，北京、上海设有分舵。<br>旗下既有导师级别的徐燕、商虹、沈磊、黄莺等行业大咖，又有小连杀、梁达伟、伤洛、钱文青等行业中坚力量，全面满足合作伙伴声音产品中的各种角色需求。 <br>旗下艺人出演影视作品有《复仇者联盟》系列、《哈利波特》系列、《步步惊心》、《花千骨》、等，游戏作品有《魔兽世界》、《星际争霸》、《英雄联盟》、《王者荣耀》等，动漫作品有《秦时明月》、《武庚纪》、《一人之下》、《那年那兔那些事儿》、《大护法》《斗罗大陆》等。</p> "
+     },
+     location: {
+       name: "瞬心文化",
+       icon:"https://dl.airtable.com/Pti3l6tdQMypu15hRJ5S_red-pushpin.png",
+       lat: 30.1840997,
+       lon: 120.1943719,
+       zoom: 16,
+       line: true
+     },
+     media: {
+       url: "https://dl.airtable.com/EwSu5FGTPCtGNzRYa75B_Shun%20Produce.jpg",
+       type: "image",
+       credit: "总部杭州",
+       caption: "瞬心文化发展有限公司"
+     }
+   },
     ] // end of slides
   }
 }
