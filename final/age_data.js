@@ -1,7 +1,7 @@
      $("button#get_age").click(function() {
        var table3_items = [];
        var i = 0;
-       var airtable_read_endpoint = "https://api.airtable.com/v0/appdKlfv4HAjmlZGI/Json?api_key=key3P4gTMtrDY1ylx";
+       var airtable_read_endpoint = "https://api.airtable.com/v0/appSmZnXtQ42iMBXl/Json?api_key=key3P4gTMtrDY1ylx";
        var table3_dataSet = [];
        $.getJSON(airtable_read_endpoint, function(result) {
               $.each(result.records, function(key,value) {
