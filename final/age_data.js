@@ -7,6 +7,7 @@
               $.each(result.records, function(key,value) {
                   table3_items = [];
                       table3_items.push(value.fields.Companies);
+                      table3_items.push('<td><img src="' + value.fields.Logos + '" style="width: 90px;"/></td>');
                       table3_items.push(value.fields.Average_age);
                       table3_dataSet.push(table3_items);
                }); // end .each
@@ -16,6 +17,8 @@
                 retrieve: true,
                 columns: [
                     { title: "团队名称",
+                      defaultContent:""},
+                    { title: "团队标识",
                       defaultContent:""},
                     { title: "平均年龄",
                       defaultContent:""},
