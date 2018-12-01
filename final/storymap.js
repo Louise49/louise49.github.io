@@ -10,7 +10,7 @@ var storymap_data = {
       date: "2018",
       text: {
         headline: "国语商配资讯站",
-        text: "<p>涵盖国内九大顶尖商业配音团队。最新资讯，一站享有。</p>"
+        text: "<p>涵盖国内八大顶尖商业配音团队。最新资讯，一站享有。</p>"
       },
       media: {
         url: "https://dl.airtable.com/AB0Q6a3aSlKgFPDbkx6k_bg1.jpg",
