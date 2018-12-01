@@ -14,7 +14,7 @@
               }); // end .each
               console.log(table1_dataSet);
 
-             var chart2 = c3.generate({
+             var chart = c3.generate({
                   data: {
                       columns: table1_dataSet,
                       type : 'bar'
