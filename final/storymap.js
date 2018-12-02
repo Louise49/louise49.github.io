@@ -61,27 +61,6 @@ var storymap_data = {
      }
    },
      {
-      date: "2013",
-      text: {
-        headline: "音熊联萌",
-        text: "<p>  由知名配音演员谢添天、冯骏骅、夏磊、沈达威和鬼月于2013年2月5日共同创办，是以动漫游戏音频后期，声优经济活动及偶像化，泛二次元IP创作与孵化为主要业务方向的有爱团体。<br>音熊联萌现旗下拥有国内知名声优艺人近二十人，主要二次元向作品有：《秒速五厘米》、《游戏人生》、《斗破苍穹》、《择天记》、《妖怪名单》、《纳米核心》、《全职法师》、《中国惊奇先生》、《王牌御史》、《馒头日记》、《太乙仙魔录》等；游戏《天谕》、《剑网三》、《天下3》、《古墓丽影崛起》、《秦时明月》、《飞刀又见飞刀》等。2017年成立首支声优偶像少女组合V17。</p> "
-      },
-      location: {
-        name: "音熊联萌",
-        icon:"https://dl.airtable.com/Pti3l6tdQMypu15hRJ5S_red-pushpin.png",
-        lat: 31.2443085,
-        lon: 120.9162903,
-        zoom: 16,
-        line: true
-      },
-      media: {
-        url: "https://dl.airtable.com/GY4fz0NTQh2IDB0YxLnA_Voice%20Bear.jpg",
-        type: "image",
-        credit: "上海",
-        caption: "熊窝饲养员“干脆面”专属工作间。"
-      }
-    },
-     {
       date: "2014",
       text: {
         headline: "北斗企鹅工作室",
@@ -102,6 +81,48 @@ var storymap_data = {
         caption: "奇迹，正在发声。"
       }
     },
+    {
+     date: "2017",
+     text: {
+       headline: "冠声文化",
+       text: "<p> 成立于2017年，冠声的声优团队分为两大阵营，以北京为阵地的声优团队会主要生产个性化的音频产品和担当出品或承制作品的重要角色，以全国范围内建立的冠声声优联盟，会接到和各平台合作的音频产品录制及部分作品的配音角色任务。</p> "
+     },
+     location: {
+       name: "冠声文化",
+       icon:"https://dl.airtable.com/Pti3l6tdQMypu15hRJ5S_red-pushpin.png",
+       lat: 39.8291191,
+       lon: 116.1211347,
+       zoom: 16,
+       line: true
+     },
+     media: {
+       url: "https://dl.airtable.com/eTXOTpq1Qinogm5sFka8_Guan%20Sheng.jpg",
+       type: "image",
+       credit: "北京",
+       caption: "用声音碰撞心灵，让耳朵谈一场恋爱！"
+     }
+   },
+   {
+    date: "2013",
+    text: {
+      headline: "音熊联萌",
+      text: "<p>  由知名配音演员谢添天、冯骏骅、夏磊、沈达威和鬼月于2013年2月5日共同创办，是以动漫游戏音频后期，声优经济活动及偶像化，泛二次元IP创作与孵化为主要业务方向的有爱团体。<br>音熊联萌现旗下拥有国内知名声优艺人近二十人，主要二次元向作品有：《斗破苍穹》、《择天记》、《全职法师》、《中国惊奇先生》、《王牌御史》等；游戏《天谕》、《剑网三》、《天下3》、《秦时明月》等。2017年成立首支声优偶像少女组合V17。</p> "
+    },
+    location: {
+      name: "音熊联萌",
+      icon:"https://dl.airtable.com/Pti3l6tdQMypu15hRJ5S_red-pushpin.png",
+      lat: 31.2443085,
+      lon: 120.9162903,
+      zoom: 16,
+      line: true
+    },
+    media: {
+      url: "https://dl.airtable.com/GY4fz0NTQh2IDB0YxLnA_Voice%20Bear.jpg",
+      type: "image",
+      credit: "上海",
+      caption: "熊窝饲养员“干脆面”专属工作间。"
+    }
+  },
     {
      date: "2014",
      text: {
@@ -144,27 +165,6 @@ var storymap_data = {
         caption: "边江（上海）影视文化工作室"
       }
     },
-    {
-     date: "2017",
-     text: {
-       headline: "冠声文化",
-       text: "<p> 成立于2017年，冠声的声优团队分为两大阵营，以北京为阵地的声优团队会主要生产个性化的音频产品和担当出品或承制作品的重要角色，以全国范围内建立的冠声声优联盟，会接到和各平台合作的音频产品录制及部分作品的配音角色任务。</p> "
-     },
-     location: {
-       name: "冠声文化",
-       icon:"https://dl.airtable.com/Pti3l6tdQMypu15hRJ5S_red-pushpin.png",
-       lat: 39.8291191,
-       lon: 116.1211347,
-       zoom: 16,
-       line: true
-     },
-     media: {
-       url: "https://dl.airtable.com/eTXOTpq1Qinogm5sFka8_Guan%20Sheng.jpg",
-       type: "image",
-       credit: "北京",
-       caption: "用声音碰撞心灵，让耳朵谈一场恋爱！"
-     }
-   },
     {
      date: "2017",
      text: {
