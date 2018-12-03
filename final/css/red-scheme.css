@@ -450,6 +450,10 @@ input.mainBtn {
   background-image: url("../images/includes/portfolio.jpg");
 }
 
+#portfolio1 {
+  background-image: url("../images/includes/portfolio1.jpg");
+}
+
 #portfolioId {
   background-image: url("../images/includes/portfolioId.jpg");
 }
