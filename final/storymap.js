@@ -13,7 +13,7 @@ var storymap_data = {
         text: "<p>可点击地图图标，或前后左右上下滑动。尽情探索八大团队吧！</p>"
       },
       media: {
-        url: "https://dl.airtable.com/AB0Q6a3aSlKgFPDbkx6k_bg1.jpg",
+        url: "images/photos/bg.jpg",
         credit: "2018.12",
         caption: ""
       }
@@ -33,7 +33,7 @@ var storymap_data = {
         line: true
       },
       media: {
-        url: "https://dl.airtable.com/PsJyfHpFRl6NixFUi1MZ_729.jpg",
+        url: "images/photos/photo1.jpg",
         type: 		"image",
         credit: "北京",
         caption: ""
@@ -43,7 +43,7 @@ var storymap_data = {
      date: "2009",
      text: {
        headline: "光合积木工作室",
-       text: "<p> 阳光，可以孕育生命；积木，可以无限组合；声音的积木，把这个世界说给你听。成立于2009年，由国内知名配音导演、配音演员姜广涛创立。由其成员执导及配音的作品包括电影《港囧》《风声》《从你的全世界路过》，电视剧《琅琊榜》《宫》《美人心计》《择天记》《幻城》，动漫《魁拔》《大鱼海棠》《少年锦衣卫》，广播剧《很想很想你》《蝉女》，系列游戏《仙剑奇侠传》在内的百余部作品。</p>"
+       text: "<p> 阳光，可以孕育生命；积木，可以无限组合；声音的积木，把这个世界说给你听。成立于2009年，由国内知名配音导演、配音演员姜广涛创立。作品：电影《港囧》《风声》《从你的全世界路过》，电视剧《琅琊榜》《宫》《美人心计》，动漫《魁拔》《大鱼海棠》，游戏《仙剑奇侠传》等。</p>"
      },
      location: {
        name: "光合积木工作室",
@@ -54,7 +54,7 @@ var storymap_data = {
        line: true
      },
      media: {
-       url: "https://dl.airtable.com/H4W1UFToSwKXug6hunj4_Voicegem.png",
+       url: "images/photos/photo2.jpg",
        type: 		"image",
        credit: "北京",
        caption: ""
@@ -75,7 +75,7 @@ var storymap_data = {
         line: true
       },
       media: {
-        url: "http://triopen.com/images/intro-logo.png",
+        url: "images/photos/photo3.jpg",
         type: "image",
         credit: "北京",
         caption: ""
@@ -96,7 +96,7 @@ var storymap_data = {
        line: true
      },
      media: {
-       url: "https://dl.airtable.com/eTXOTpq1Qinogm5sFka8_Guan%20Sheng.jpg",
+       url: "images/photos/photo4.jpg",
        type: "image",
        credit: "北京",
        caption: ""
@@ -159,7 +159,7 @@ var storymap_data = {
         line: true
       },
       media: {
-        url: "https://dl.airtable.com/3iULgCVYTXy2q9SReFwc_Bianjiang%20Studio.jpg",
+        url: "images/photos/photo7.jpg",
         type: "image",
         credit: "上海",
         caption: "边江（上海）影视文化工作室"
@@ -180,7 +180,7 @@ var storymap_data = {
        line: true
      },
      media: {
-       url: "https://dl.airtable.com/EwSu5FGTPCtGNzRYa75B_Shun%20Produce.jpg",
+       url: "images/photos/photo8.jpg",
        type: "image",
        credit: "总部杭州",
        caption: "瞬心文化发展有限公司"
